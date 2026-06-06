@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Automated disk cleanup daemon for WSL development environments"
 license = "MIT"
+repository = "https://github.com/SuperInstance/fleet-warden"
 
 [[bin]]
 name = "fleet-warden"
