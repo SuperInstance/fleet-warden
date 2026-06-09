@@ -6,6 +6,10 @@ description = "Automated disk cleanup daemon for WSL development environments"
 license = "MIT"
 repository = "https://github.com/SuperInstance/fleet-warden"
 
+[lib]
+name = "fleet_warden"
+path = "src/lib.rs"
+
 [[bin]]
 name = "fleet-warden"
 path = "src/main.rs"
