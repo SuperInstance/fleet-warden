@@ -1,4 +1,9 @@
-use fleet_warden::{budget, cleaner, history, scanner, state, watcher};
+mod scanner;
+mod cleaner;
+mod watcher;
+mod budget;
+mod state;
+mod history;
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
