@@ -1,7 +1,7 @@
 [package]
 name = "fleet-warden"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 description = "Automated disk cleanup daemon for WSL development environments"
 license = "MIT"
 repository = "https://github.com/SuperInstance/fleet-warden"
